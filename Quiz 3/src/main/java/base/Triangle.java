@@ -93,7 +93,6 @@ public class Triangle extends GeometricObject {
 	 * @return string description of triangle
 	 */
 	public String toString() {
-		return "This triangle has side lenghts of "+this.side1+", "+this.side2+", "+ this.side3+" "+
-				 String.format("with a perimeter of %.2f and an area of %.2f", this.getPerimeter(), this.getArea());
+		return "side 1 " + this.side1 + " side 2 "+ this.side2 +" side 3 ";
 		}
 }
